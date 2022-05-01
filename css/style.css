@@ -1,0 +1,130 @@
+/* General Fonts rules */
+body {
+    font-family: "Nunito Sans", Arial, sans serif;
+    size: 16px;
+}
+
+h1, h2, dt {
+    font-family: "Raleway", Helvetica, sans serif;
+}
+
+h1 {
+   font-size: 3.5rem; 
+}
+
+h2 {
+    font-size: 2.5rem; 
+ }
+
+ .material-icons {
+    font-family: "Material Icons";
+    position: relative;
+    top: 5px;
+}
+
+/* Page Spacing rules */
+ .container {
+     max-width: 960px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+h1, h2, dt {
+     margin-top: 0;
+     margin-bottom: .5rem;
+ }
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+ }
+
+/* The Nav Bar rules */
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+nav{
+    background: #2C96BF;
+    color: white;
+    padding: .5rem;
+    padding-bottom: 1rem;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F0F0F0;
+    border-bottom-color: #F0F0F0;
+    border-bottom: .8rem;
+    transition: all .25s ease-out;  
+}
+
+/* The Header rules */
+header {
+    color: white;
+    padding-top: 6ex;
+    padding-bottom: 6ex;
+    background-image: url('../img/paul-gilmore-145802-unsplash.jpg');
+    background-size: cover;
+    background-color: #0084Af;
+}
+
+.motto {
+    font-style: italic;
+    height: 1.25ex;
+}
+
+/* The Menu rules */
+#menu {
+    background-color: #f0f0f0;
+}
+
+dt {
+    font-size: 125%;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+dl, p {
+    margin: 0;
+}
+
+img {
+    height: 200px;
+    border-radius: 15px;
+}
+
+/* The About Section rules */
+#about {
+    background-color: #e0e0e0;
+    line-height: 1.5;
+}
+
+/* The Footer rules */
+footer, footer a {
+    color: white;
+    background: #3E1305;
+    text-decoration: white;
+}
+
+footer p {
+    margin: 0,;
+    line-height: 1.25;
+}
+
+
